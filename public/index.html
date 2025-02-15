@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomocnik kulinarny</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kontener">
+        <h1>Pomocnik Kulinarny</h1>
+        <div class="sekcja-skladnikow">
+            <div class="grupa-wprowadzania">
+                <input type="text" name="" id="poleSkladnikow" placeholder="Dodaj składnik .... ">
+                <button onclick="dodajSkladnik()">Dodaj</button>
+            </div>
+
+            <ul class="lista-skladnikow" id="listaSkladnikow">
+              
+            </ul>
+            <button id="przyciskSzukaj" onclick="szukajPrzepisow()">Szukaj przepisów</button>
+    
+        </div>
+
+        <div class="sekcja-przepisow" id="sekcjaPrzepisow">
+            <h2>Proponowane przepisy</h2>
+            <ul id="listaPrzepisow" class="lista-przepisow">
+
+            </ul>
+            <div class="szczegoly-pezepisu" id="szczegolyPrzepisu">
+                
+            </div>
+        </div>
+
+    </div>
+    
+
+    <script src="script.js" defer></script>
+</body>
+</html>
